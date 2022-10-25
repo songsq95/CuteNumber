@@ -17,7 +17,7 @@
       { "selector": "default", "format": ["camelCase"] },
       { "selector": "typeLike", "format": ["PascalCase"] }
     ],
-    "semi": "off",
+    "semi": [2, "always"],
     "@typescript-eslint/semi": ["error", "never"],
     "block-scoped-var": "error",
     "no-var": "error",
